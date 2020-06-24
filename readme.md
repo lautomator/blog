@@ -1,15 +1,19 @@
-#Wordpress Blog: Ship Arriving Too Late
+Wordpress Blog: Ship Arriving Too Late
+--------------------------------------
 
 This repository will store the child theme and other files.
 
 See `public_html/.gitignore` to view what has not been included.
 
-##Themes
+Themes
+------
 
 Parent: [Author](https://www.competethemes.com/author/)
 Child: Author Child
 
-##Plugins
+Plugins
+-------
+
 ```
 advanced-custom-fields
 backwpup
