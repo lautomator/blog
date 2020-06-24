@@ -1,4 +1,4 @@
-Wordpress Blog: Ship Arriving Too Late
+Wordpress Blog: A Ship Arriving Too Late
 --------------------------------------
 
 This repository will store the child theme and other files.
@@ -9,6 +9,7 @@ Themes
 ------
 
 Parent: [Author](https://www.competethemes.com/author/)
+
 Child: Author Child
 
 Plugins
