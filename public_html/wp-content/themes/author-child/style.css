@@ -12,6 +12,65 @@
  Text Domain:  author
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,700;1,700&display=swap');
+
+
 .site-footer .design-credit {
-    background: yellow;
+    background: #ffff00;
+}
+
+@media all and (min-width: 87.5em) {
+    .site-footer:after {
+        background: #ffff00;
+    }
+}
+
+/* fonts */
+body {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 110%;
+    line-height: 1.8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+textarea {
+    font-family: 'Source Serif Pro', serif;
+}
+
+input[type="submit"] {
+  font-family: 'Source Serif Pro', serif;
+}
+
+.site-title {
+    font-family: 'Work Sans', sans-serif;
+    line-height: 34px;
+}
+
+.widget .widget-title {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.gallery-caption {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 12px;
+}
+
+.sidebar-primary .widget_search input[type="submit"] {
+    background: #ffff00;
+    color: #27292B;
 }
