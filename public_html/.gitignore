@@ -18,6 +18,7 @@ wp-signup.php
 wp-trackback.php
 xmlrpc.php
 wp-content/plugins/
+wp-content/mu-plugins/
 wp-content/index.php
 wp-content/themes/author
 wp-content/themes/twentytwenty
