@@ -20,8 +20,6 @@ advanced-custom-fields
 backwpup
 disable-comments
 disable-gutenberg
-index.php
-jetpack
 stops-core-theme-and-plugin-updates
 wordpress-seo
 wp-migrate-db
