@@ -20,6 +20,7 @@ advanced-custom-fields
 backwpup
 disable-comments
 disable-gutenberg
+perfect-pullquotes
 stops-core-theme-and-plugin-updates
 wordpress-seo
 wp-migrate-db
