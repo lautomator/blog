@@ -5,7 +5,7 @@
 <head>
 	<?php wp_head(); ?>
 
-    <link rel="shortcut icon" type="image/x-icon" href="/img/tennis-favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/tennis-favicon.png">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56241017-2"></script>
