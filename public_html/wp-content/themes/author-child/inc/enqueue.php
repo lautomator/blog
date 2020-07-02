@@ -8,7 +8,7 @@ function author_child_enqueue_styles() {
     if (ENV === 'development') {
         $ver = random_int(111, 99999); // dev only
     } else {
-        $ver = '2020-06-24';
+        $ver = '2020-07-02';
     }
 
     wp_enqueue_style($parenthandle, get_template_directory_uri() . '/style.css',
