@@ -1,0 +1,28 @@
+/*
+ Theme Name:   Markiter Child
+ Theme URI:
+ Description:  Markiter Child Theme
+ Author:       John Merigliano
+ Author URI:   http://johnmerigliano.com
+ Template:     markiter
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         accessibility ready, block editor styles, blog, custom menu, editor style, one column, sticky post, threaded comments, translation ready, wide blocks
+ Text Domain:  markiter
+*/
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+body {
+    font-family: 'Crimson Text', serif;
+}
+
+a {
+    color: #808080;
+    text-decoration-style: dashed;
+    text-underline-position: under;
+}
+
+
