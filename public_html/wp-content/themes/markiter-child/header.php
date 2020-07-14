@@ -17,7 +17,7 @@
 
 <link rel="profile" href="https://gmpg.org/xfn/11">
 
-<link rel="shortcut icon" type="image/x-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/ship-x-icon.png">
+<link rel="shortcut icon" type="image/x-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/ship-late-icon.png">
 
 <?php wp_head(); ?>
 

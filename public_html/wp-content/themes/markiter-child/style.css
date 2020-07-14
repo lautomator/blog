@@ -21,8 +21,27 @@ body {
 
 a {
     color: #808080;
+    text-decoration: underline;
     text-decoration-style: dashed;
     text-underline-position: under;
+}
+
+a:hover {
+    color: #000;
+}
+
+.main-navigation a:hover,
+.entry-meta a:hover,
+.entry-title a:hover {
+    color: #000;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-underline-position: under;
+}
+
+hr {
+  border: 0;
+  border-top: 0.1rem dashed #424658;
 }
 
 
