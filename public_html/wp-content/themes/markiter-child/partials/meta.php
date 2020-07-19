@@ -13,7 +13,7 @@
             sprintf(
                 // translators: %s is for the author link.
                 __( '%s', 'markiter' ),
-                markiter_get_the_date()
+                get_the_date()
             ),
             array(
                 'a' => array(
