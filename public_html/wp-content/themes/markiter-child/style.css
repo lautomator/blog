@@ -39,9 +39,18 @@ a:hover {
     text-underline-position: under;
 }
 
+h2.entry-title a:hover {
+    text-decoration: none;
+}
+
 hr {
   border: 0;
   border-top: 0.1rem dashed #424658;
+}
+
+.entry-meta .entry-date:before,
+.entry-meta .entry-tags:before {
+  content: none;
 }
 
 
