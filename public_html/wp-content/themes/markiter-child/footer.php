@@ -30,7 +30,7 @@
             echo wp_kses_post(
                 sprintf(
                     // translators: %s is for the site title.
-                    __( '&copy; copyright %d %s. all rights reserved.', 'markiter' ), date('Y'), 'john merigliano'
+                    __( '&copy; Copyright %d %s. All rights reserved.', 'markiter' ), date('Y'), 'John Merigliano'
                 )
             );
             ?>

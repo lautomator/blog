@@ -5,7 +5,7 @@
  Author:       John Merigliano
  Author URI:   http://johnmerigliano.com
  Template:     markiter
- Version:      1.0.1
+ Version:      1.0.2
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         accessibility ready, block editor styles, blog, custom menu, editor style, one column, sticky post, threaded comments, translation ready, wide blocks
@@ -51,6 +51,20 @@ hr {
 .entry-meta .entry-date:before,
 .entry-meta .entry-tags:before {
   content: none;
+}
+
+.social-links {
+    font-size: 16px;
+}
+
+.social-links a {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-underline-position: under;
+}
+
+.social-links a:hover {
+    color: #000;
 }
 
 
