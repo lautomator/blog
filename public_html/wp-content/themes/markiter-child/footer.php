@@ -30,14 +30,18 @@
             echo wp_kses_post(
                 sprintf(
                     // translators: %s is for the site title.
-                    __( '&copy; Copyright %d %s. All rights reserved.', 'markiter' ), date('Y'), 'John Merigliano'
+                    __( '&copy; copyright %d %s. all rights reserved.', 'markiter' ), date('Y'), 'john merigliano'
                 )
             );
             ?>
+        </div>
+        <div class="copyright">
+            <a href="https://twitter.com/<?php echo get_user_meta(1, 'twitter')[0]; ?>" target="_blank">twitter</a> | <a href="<?php echo get_home_url(); ?>/feed/" target="_blank">rss</a>
         </div>
     </div>
 </footer>
 
 <?php wp_footer(); ?>
+
 </body>
 </html>
