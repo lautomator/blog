@@ -54,7 +54,7 @@
             ?>
 
             <div class="social-links">
-                <a href="https://twitter.com/<?php echo get_user_meta(1, 'twitter')[0]; ?>" target="_blank">twitter</a> | <a href="<?php echo get_home_url(); ?>/feed/" target="_blank">rss</a>
+                <a href="https://twitter.com/<?php echo get_user_meta(1, 'twitter')[0]; ?>" target="_blank">twitter</a> | <a href="<?php echo get_home_url(); ?>/feed/" target="_blank">rss</a> | <a href="https://www.pussyft.com" target="_blank">psyft</a>
             </div>
         </div><!-- .brand -->
 
