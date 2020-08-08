@@ -12,7 +12,12 @@
         if ( has_post_thumbnail() ) {
             the_post_thumbnail();
         }
+
         ?>
+    </div>
+
+    <div class="post-caption">
+        <?php the_post_thumbnail_caption(); ?>
     </div>
 
     <header class="entry-header">
