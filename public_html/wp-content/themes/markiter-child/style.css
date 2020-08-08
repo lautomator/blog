@@ -53,18 +53,5 @@ hr {
   content: none;
 }
 
-.social-links {
-    font-size: 16px;
-}
-
-.social-links a {
-    text-decoration: underline;
-    text-decoration-style: dashed;
-    text-underline-position: under;
-}
-
-.social-links a:hover {
-    color: #000;
-}
 
 
